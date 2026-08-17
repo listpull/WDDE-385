@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Web application security basics and a cybersecurity checklist for small businesses.">
+<title>Web Application Security — TechBridge</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">Tech<span>Bridge</span></a>
+    <button class="menu-button" aria-expanded="false">Menu</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resources.html">Resource Library</a></li>
+        <li><a href="compare.html">Compare Options</a></li>
+        <li><a href="tools.html">Tools and Checklists</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <article>
+    <p class="breadcrumbs"><a href="index.html">Home</a> &gt; <a href="resources.html">Resource Library</a> &gt; Web Application Security</p>
+    <h1>Web Application Security</h1>
+
+    <div class="quick">
+      <h2>Quick answer</h2>
+      <p>Public forms and interactive tools can be targeted by spam, malicious input, and automated abuse. A few basic habits close most of the common gaps.</p>
+    </div>
+
+    <h2>Common threats</h2>
+    <p>Spam, malicious input, automated abuse, weak passwords, unused accounts, unsafe uploaded files, cross-site request forgery, and suspicious activity can all affect a public website.</p>
+
+    <h2>How to mitigate them</h2>
+    <ul>
+      <li>Use HTTPS with an SSL certificate across the entire site.</li>
+      <li>Validate and sanitize all form input on the server, not just in the browser.</li>
+      <li>Use CAPTCHA, honeypot fields, or rate limiting to reduce spam.</li>
+      <li>Use protection against cross-site request forgery for forms.</li>
+      <li>Use strong, unique passwords for hosting, domain, and administrator accounts.</li>
+      <li>Remove unused plug-ins, accounts, themes, and code.</li>
+      <li>Use proper file permissions and security headers.</li>
+    </ul>
+
+    <section id="cyber-checklist" class="card tool-section" data-tool="cyber">
+      <h2>Cybersecurity Basics Checklist</h2>
+      <p>A short list of things to do now, not a long technical security manual. Check anything already true for your business.</p>
+      <fieldset class="check">
+        <legend>Basic protections</legend>
+        <label><input type="checkbox" data-check> Every shared account uses a unique password, not one reused everywhere.</label>
+        <label><input type="checkbox" data-check> Multi-factor authentication is turned on for email and financial accounts.</label>
+        <label><input type="checkbox" data-check> Software and apps are set to update automatically.</label>
+        <label><input type="checkbox" data-check> Staff know how to recognize a suspicious link or attachment.</label>
+        <label><input type="checkbox" data-check> Former employees no longer have access to shared accounts.</label>
+        <label><input type="checkbox" data-check> Business Wi-Fi has its own password separate from any guest network.</label>
+      </fieldset>
+      <button class="button" type="button" data-score>See my next steps</button>
+      <p data-score-line></p>
+      <div class="result" data-outcomes hidden aria-live="polite">
+        <div data-level="high" hidden>
+          <h3>Your basics are covered.</h3>
+          <p>Revisit this list after adding new staff, new accounts, or new software.</p>
+        </div>
+        <div data-level="mid" hidden>
+          <h3>You have some protections in place, but gaps remain.</h3>
+          <p>Weak passwords and missing multi-factor authentication are the most common way small businesses get locked out of accounts.</p>
+          <h4>Next steps</h4>
+          <ol>
+            <li>Turn on multi-factor authentication for email first.</li>
+            <li>Change any shared or reused passwords this week.</li>
+            <li>Remove access for anyone who no longer works with your team.</li>
+          </ol>
+        </div>
+        <div data-level="low" hidden>
+          <h3>These basics need attention soon.</h3>
+          <p>Right now, one weak password or one missed update could take down access to accounts your business depends on.</p>
+          <h4>Next steps</h4>
+          <ol>
+            <li>Change shared passwords and turn on multi-factor authentication today.</li>
+            <li>Turn on automatic updates for the software your team relies on.</li>
+            <li>Set a reminder to review account access every few months.</li>
+          </ol>
+        </div>
+        <div class="grid" style="margin-top:1rem">
+          <button class="button" type="button" data-print>Print my result</button>
+          <button class="button" type="button" data-save>Save my result</button>
+        </div>
+      </div>
+    </section>
+
+    <h2>Class insights</h2>
+    <p>The feedback form should collect only what is needed. A visitor can submit a suggestion, report an issue, or report an accessibility problem without sharing unnecessary personal information.</p>
+
+    <aside class="related">
+      <h2>Related resources</h2>
+      <ul>
+        <li><a href="resources.html">Resource Library</a></li>
+        <li><a href="compare.html">Compare Options</a></li>
+        <li><a href="tools.html#backup">Backup Readiness Checklist</a></li>
+        <li><a href="contact.html">Feedback and support</a></li>
+      </ul>
+    </aside>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer">
+    <div>
+      <a class="brand" href="index.html">Tech<span>Bridge</span></a>
+      <p>Resource Hub for businesses of all shapes and sizes.</p>
+    </div>
+    <div>
+      <h2>Explore</h2>
+      <p><a href="resources.html">Resource Library</a><br><a href="compare.html">Compare Options</a><br><a href="tools.html">Tools and Checklists</a></p>
+    </div>
+    <div>
+      <h2>Support</h2>
+      <p><a href="contact.html">Feedback and support</a><br><a href="accessibility.html">Accessibility</a></p>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
