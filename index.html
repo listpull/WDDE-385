@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="TechBridge technology resource hub for small-business owners.">
 <title>Home — TechBridge</title>
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
@@ -27,15 +27,27 @@
 </header>
 
 <section class="hero">
-  <div class="wrap">
-    <p>A technology resource hub</p>
-    <h1>Make confident technology decisions.</h1>
-    <p>Resource Hub for businesses of all shapes and sizes.</p>
-    <form class="search" data-search role="search">
-      <label class="hidden" for="search">Search topics, guides, and tools</label>
-      <input id="search" name="q" type="search" placeholder="Search topics, guides, and tools">
-      <button type="submit">Search</button>
-    </form>
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p>A technology resource hub</p>
+      <h1>Make confident technology decisions.</h1>
+      <p>Practical help for small businesses without the confusing language.</p>
+      <form class="search" data-search role="search">
+        <label class="hidden" for="search">Search topics, guides, and tools</label>
+        <input id="search" name="q" type="search" placeholder="Search topics, guides, and tools">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <img
+      class="hero-image"
+      src="https://picsum.photos/seed/techbridge-hero/700/560"
+      srcset="https://picsum.photos/seed/techbridge-hero/420/336 420w,
+              https://picsum.photos/seed/techbridge-hero/700/560 700w,
+              https://picsum.photos/seed/techbridge-hero/1000/800 1000w"
+      sizes="(max-width: 760px) 88vw, 40vw"
+      width="700" height="560"
+      alt="A small-business owner reviewing technology options on a laptop at a shop counter"
+      loading="eager" fetchpriority="high">
   </div>
 </section>
 
@@ -50,21 +62,57 @@
     <h2>Get help with the part of work that feels messy.</h2>
     <div class="grid">
       <article class="card">
+        <img
+          src="https://picsum.photos/seed/techbridge-backup/480/320"
+          srcset="https://picsum.photos/seed/techbridge-backup/320/213 320w,
+                  https://picsum.photos/seed/techbridge-backup/480/320 480w,
+                  https://picsum.photos/seed/techbridge-backup/800/533 800w"
+          sizes="(max-width: 600px) 90vw, (max-width: 900px) 45vw, 260px"
+          width="480" height="320"
+          alt="External hard drive and a laptop showing files being copied for backup"
+          loading="lazy">
         <h3>Storage and Backup</h3>
         <p>Understand cloud storage, external drives, shared files, and backup copies.</p>
         <a href="tools.html#backup">Open the backup checklist</a>
       </article>
       <article class="card">
+        <img
+          src="https://picsum.photos/seed/techbridge-security/480/320"
+          srcset="https://picsum.photos/seed/techbridge-security/320/213 320w,
+                  https://picsum.photos/seed/techbridge-security/480/320 480w,
+                  https://picsum.photos/seed/techbridge-security/800/533 800w"
+          sizes="(max-width: 600px) 90vw, (max-width: 900px) 45vw, 260px"
+          width="480" height="320"
+          alt="Person entering a password on a laptop with a padlock icon on screen"
+          loading="lazy">
         <h3>Security</h3>
         <p>Find basic cybersecurity steps the team can follow.</p>
         <a href="security.html">Read about security</a>
       </article>
       <article class="card">
+        <img
+          src="https://picsum.photos/seed/techbridge-software/480/320"
+          srcset="https://picsum.photos/seed/techbridge-software/320/213 320w,
+                  https://picsum.photos/seed/techbridge-software/480/320 480w,
+                  https://picsum.photos/seed/techbridge-software/800/533 800w"
+          sizes="(max-width: 600px) 90vw, (max-width: 900px) 45vw, 260px"
+          width="480" height="320"
+          alt="Two coworkers comparing software options side by side on a tablet"
+          loading="lazy">
         <h3>Business Software</h3>
         <p>Compare options by cost, setup effort, access, team size, and main use.</p>
         <a href="compare.html">Compare options</a>
       </article>
       <article class="card">
+        <img
+          src="https://picsum.photos/seed/techbridge-webdesign/480/320"
+          srcset="https://picsum.photos/seed/techbridge-webdesign/320/213 320w,
+                  https://picsum.photos/seed/techbridge-webdesign/480/320 480w,
+                  https://picsum.photos/seed/techbridge-webdesign/800/533 800w"
+          sizes="(max-width: 600px) 90vw, (max-width: 900px) 45vw, 260px"
+          width="480" height="320"
+          alt="Website wireframe sketches next to a phone showing a responsive layout"
+          loading="lazy">
         <h3>Web Design</h3>
         <p>Learn about user experience, accessibility, performance, and responsive design.</p>
         <a href="user-experience.html">Open web design resources</a>
@@ -145,7 +193,7 @@
   <div class="wrap footer">
     <div>
       <a class="brand" href="index.html">Tech<span>Bridge</span></a>
-      <p>Resource Hub for businesses of all shapes and sizes.</p>
+      <p>Practical help for small businesses without the confusing language.</p>
     </div>
     <div>
       <h2>Explore</h2>
@@ -157,6 +205,6 @@
     </div>
   </div>
 </footer>
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
